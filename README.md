@@ -22,6 +22,7 @@ nrl-news-app/
 - Scrapes articles from [nrl.com](https://nrl.com) and [zerotackle.com](https://zerotackle.com) using Playwright and BeautifulSoup.
 - Automatically uploads the latest news to S3 every hour.
 - Serverless API built with AWS Lambda + API Gateway.
+- Uses the AWS SDK for JavaScript (v3) to retrieve news data from S3
 - Frontend built with React and styled using Tailwind CSS.
 - Designed to be fast, clean, and easy to deploy.
 
